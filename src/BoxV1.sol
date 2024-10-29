@@ -17,7 +17,7 @@ contract BoxV1 is Initializable, UUPSUpgradeable, OwnableUpgradeable {
         _disableInitializers(); // we don't want any initializers to run in the contract
     }
 
-    function getString() public returns(string memory){
+    function getString() public returns (string memory) {
         s_first = "original string";
         return s_first;
     }

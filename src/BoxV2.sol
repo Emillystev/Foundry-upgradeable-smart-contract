@@ -15,7 +15,7 @@ contract BoxV2 is UUPSUpgradeable {
         number = _number;
     }
 
-    function getString() public returns(string memory){
+    function getString() public returns (string memory) {
         s_second = "updated string";
         return s_second;
     }
